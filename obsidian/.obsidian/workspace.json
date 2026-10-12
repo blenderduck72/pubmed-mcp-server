@@ -11,22 +11,14 @@
             "id": "16e5afd705b0a2b5",
             "type": "leaf",
             "state": {
-              "type": "kanban",
+              "type": "markdown",
               "state": {
-                "file": "workboard/work/work_catalog.md",
-                "kanbanViewState": {
-                  "kanban-plugin": "board",
-                  "list-collapse": [
-                    false,
-                    false,
-                    false,
-                    false,
-                    false
-                  ]
-                }
+                "file": "workboard/work/cards/DE-PUBMED-0002 Types.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-trello",
-              "title": "work_catalog"
+              "icon": "lucide-file",
+              "title": "DE-PUBMED-0002 Types"
             }
           }
         ]
@@ -197,10 +189,10 @@
   },
   "active": "16e5afd705b0a2b5",
   "lastOpenFiles": [
+    "workboard/work/work_catalog.md",
     "workboard/work/cards/DE-PUBMED-0001-Initial.md",
     "workboard/planning/planning_catalog.md",
     "workboard/planning/cards/Rust MCP Server Portfolio Project.md",
-    "workboard/work/work_catalog.md",
     "README.md",
     "workboard/work/cards/DE-PUBMED-006 Documentation.md",
     "workboard/work/cards/DE-PUBMED-0003 Client.md",
