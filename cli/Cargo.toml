@@ -1,0 +1,21 @@
+[package]
+name = "pubmed"
+version = "0.1.0"
+edition = "2024"
+rust-version.workspace = true
+
+[dependencies]
+clap = { workspace = true, features = ["derive"] }
+console = { workspace = true }
+reqwest = { workspace = true, features = ["native-tls-vendored"] }
+tokio = { workspace = true, features = ["macros", "rt-multi-thread", "fs"] }
+anyhow = { workspace = true }
+quick-xml = { version = "0.41.0", features = [
+    "serde",
+    "serde-types",
+    "serialize",
+    "tokio",
+] }
+serde = { workspace = true, features = ["derive"] }
+client = { path = "../client" }
+serde_json = { workspace = true }

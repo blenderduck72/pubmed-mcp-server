@@ -1,0 +1,23 @@
+[package]
+name = "client"
+version = "0.1.0"
+edition = "2024"
+rust-version.workspace = true
+
+[dependencies]
+chrono = { version = "0.4.45", features = ["serde"] }
+quick-xml = { version = "0.41.0", features = ["serialize"] }
+serde = { workspace = true, features = ["derive"] }
+anyhow = { workspace = true }
+tokio = { workspace = true, features = ["macros", "rt-multi-thread", "fs"] }
+serde_json = { workspace = true }
+reqwest = { workspace = true, features = [
+    "native-tls-vendored",
+    "json",
+    "query",
+] }
+thiserror = { workspace = true }
+derive_builder = { workspace = true }
+
+[dev-dependencies]
+httpmock = { workspace = true }
