@@ -1,0 +1,220 @@
+{
+  "main": {
+    "id": "65a16f182f3876bb",
+    "type": "split",
+    "children": [
+      {
+        "id": "448ab322b091291d",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "16e5afd705b0a2b5",
+            "type": "leaf",
+            "state": {
+              "type": "kanban",
+              "state": {
+                "file": "workboard/work/work_catalog.md",
+                "kanbanViewState": {
+                  "kanban-plugin": "board",
+                  "list-collapse": [
+                    false,
+                    false,
+                    false,
+                    false,
+                    false
+                  ]
+                }
+              },
+              "icon": "lucide-trello",
+              "title": "work_catalog"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "d996894e661b4f9e",
+    "type": "split",
+    "children": [
+      {
+        "id": "7801045ea90e2031",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "db6ed761c329c31f",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "f686c98c687d6cf8",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "18a319ed00217522",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "561b028673e10ab9",
+    "type": "split",
+    "children": [
+      {
+        "id": "b26beb4111a947c3",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "4a202912a84b8d9f",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks"
+            }
+          },
+          {
+            "id": "f841604b86c52733",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links"
+            }
+          },
+          {
+            "id": "490552db70d29503",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "9d8672602eb7a59a",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
+          },
+          {
+            "id": "e6d6dd3650af2dc4",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false,
+      "obsidian-excalidraw-plugin:New drawing": false,
+      "obsidian-kanban:Create new board": false
+    }
+  },
+  "active": "16e5afd705b0a2b5",
+  "lastOpenFiles": [
+    "workboard/work/cards/DE-PUBMED-0001-Initial.md",
+    "workboard/planning/planning_catalog.md",
+    "workboard/planning/cards/Rust MCP Server Portfolio Project.md",
+    "workboard/work/work_catalog.md",
+    "README.md",
+    "workboard/work/cards/DE-PUBMED-006 Documentation.md",
+    "workboard/work/cards/DE-PUBMED-0003 Client.md",
+    "workboard/work/cards/DE-PUBMED-0002 Types.md",
+    "workboard/work/cards/DE-PUBMED-0004 CLI.md",
+    "workboard/work/cards/DE-PUBMED-0005 MCP.md",
+    "workboard/work/cards",
+    "workboard/planning/cards",
+    "workboard/work",
+    "workboard/planning",
+    "workboard/Untitled.md",
+    "workboard/Untitled.base",
+    "Untitled.md",
+    "Untitled.canvas",
+    "workboard"
+  ]
+}

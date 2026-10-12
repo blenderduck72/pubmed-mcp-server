@@ -1,0 +1,24 @@
+[package]
+name = "mcp"
+version = "0.1.0"
+edition = "2024"
+rust-version.workspace = true
+
+[dependencies]
+anyhow = { workspace = true }
+axum = { workspace = true }
+clap = { workspace = true, features = ["derive"] }
+console = { workspace = true }
+rmcp = { workspace = true, features = ["transport-streamable-http-server"] }
+serde = { workspace = true }
+serde_json = { workspace = true }
+schemars = { workspace = true }
+tokio = { workspace = true, features = ["macros", "rt-multi-thread", "signal"] }
+tokio-util = { workspace = true }
+client = { path = "../client" }
+
+[dev-dependencies]
+http-body-util = { workspace = true }
+httpmock = { workspace = true }
+tower = { workspace = true, features = ["util"] }
+tower-http = { workspace = true }

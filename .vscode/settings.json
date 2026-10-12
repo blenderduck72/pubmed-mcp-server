@@ -1,0 +1,18 @@
+{
+  // "terminal.integrated.fontFamily": "MesloLGL Nerd Font", - Uncomment for windows users using Oh-My-Posh
+  "editor.formatOnSave": true,
+  "files.insertFinalNewline": true,
+  "rust-analyzer.check.command": "clippy",
+  "rust-analyzer.cargo.features": "all",
+  "[rust]": {
+    "editor.defaultFormatter": "rust-lang.rust-analyzer",
+    "editor.codeActionsOnSave": {
+      "source.organizeImports": "explicit",
+      "souce.organizeImports": "explicit"
+    }
+  },
+  "editor.rulers": [
+    { "column": 80, "color": "#ec4899" },
+    { "column": 120, "color": "#06b6d4" }
+  ]
+}
