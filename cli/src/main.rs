@@ -6,11 +6,13 @@ use tokio::io::AsyncWriteExt;
 
 #[derive(Parser)]
 struct SearchArgs {
+    /// ESSIE Syntax Query
     #[arg(
         short, long
     )]
     expression: String,
 
+    /// Output Location (Optional)
     #[arg(
         short, long
     )]
@@ -19,11 +21,13 @@ struct SearchArgs {
 
 #[derive(Parser)]
 struct FetchArgs {
+    /// List of Article IDs to fetch
     #[arg(
         short, long
     )]
     ids: Vec<String>,
 
+    /// Output Location (Otional)
     #[arg(
         short, long
     )]
