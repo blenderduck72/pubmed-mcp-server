@@ -856,14 +856,14 @@ mod tests {
                                             .build()?
                                        )
                                     )
-                                    .elocation_id(
-                                        Some(
+                                    .elocation_ids(
+                                        Some(vec![
                                             models::fetch::ElocationIdBuilder::default()
                                                 .eld_type(Some(models::constants::ElocationIdType::DigitialObjectIdentifier))
                                                 .valid_y_n(Some(models::constants::ValidYesNo::Y))
                                                 .value(Some("10.0001/science.0000001".into()))
                                                 .build()?
-                                        )
+                                        ])
                                     )
                                     .r#abstract(
                                         Some(

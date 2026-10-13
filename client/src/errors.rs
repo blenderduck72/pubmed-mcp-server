@@ -6,10 +6,10 @@ pub enum ClientError {
     #[error("Could Not Initialize PubMed Client: {0}")]
     InitiationReqwestClient(reqwest::Error),
 
-    #[error("Could not parse XML from PubMed Doc")]
+    #[error("Could not parse XML from PubMed Doc: {0}")]
     ParseFetchXml(quick_xml::errors::serialize::DeError),
 
-    #[error("Could not parse XML from Search Query")]
+    #[error("Could not parse XML from Search Query: {0}")]
     ParseSearchXml(quick_xml::errors::serialize::DeError),
 
     #[error("Could not retrieve search results: {0}")]

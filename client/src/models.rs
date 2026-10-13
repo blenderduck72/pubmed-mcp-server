@@ -391,9 +391,13 @@ pub mod constants {
     }
 
     #[derive(Serialize, Deserialize, Debug, Clone, PartialEq)]
-    #[serde(rename_all = "lowercase")]
+    #[serde(
+        rename_all = "lowercase",
+        from = "String"
+    )]
     pub enum PubStatus {
         Received,
+        Revised,
         Accepted,
         Epublish,
         Ppublish,
@@ -409,7 +413,32 @@ pub mod constants {
         Entrez,
         #[serde(rename = "pmc-release")]
         PmcRelase,
+        // catch-all for statuses not listed above, keeps the raw value
         Other(String),
+    }
+
+    impl From<String> for PubStatus {
+        fn from(value: String) -> Self {
+            match value.as_str() {
+                "received" => PubStatus::Received,
+                "revised" => PubStatus::Revised,
+                "accepted" => PubStatus::Accepted,
+                "epublish" => PubStatus::Epublish,
+                "ppublish" => PubStatus::Ppublish,
+                "aheadofprint" => PubStatus::AheadOfPrint,
+                "retracted" => PubStatus::Retracted,
+                "ecollection" => PubStatus::Ecollection,
+                "pmc" => PubStatus::Pmc,
+                "pmcr" => PubStatus::Pmcr,
+                "pubmed" => PubStatus::PubMed,
+                "pubmedr" => PubStatus::PubMedr,
+                "premedline" => PubStatus::Premedline,
+                "medline" => PubStatus::Medline,
+                "entrez" => PubStatus::Entrez,
+                "pmc-release" => PubStatus::PmcRelase,
+                _ => PubStatus::Other(value),
+            }
+        }
     }
 
     #[derive(Serialize, Deserialize, Debug, Clone, PartialEq)]
@@ -1269,7 +1298,7 @@ pub mod fetch {
             rename(deserialize = "ELocationID"),
             skip_serializing_if = "Option::is_none"
         )]
-        pub elocation_id: Option<ElocationId>,
+        pub elocation_ids: Option<Vec<ElocationId>>,
 
         #[serde(skip_serializing_if = "Option::is_none")]
         pub r#abstract: Option<Abstract>,
