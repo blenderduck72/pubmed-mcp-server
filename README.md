@@ -17,11 +17,11 @@ this may be useful to you.
 
 This project is structured into 3 modules/packages:
 
-- **client** - which contains types and an API Service which faciliates REST
+- **[client](./client/README.md)** - which contains types and an API Service which faciliates REST
   requests to the PubMed API.
-- **mcp** - an Axum MCP Server which uses the `client` module, allowing an
+- **[mcp](./mcp/README.md)** - an Axum MCP Server which uses the `client` module, allowing an
   agent to make requests to PubMed.
-- **cli** - a quick command line utility that leverages `client` to query
+- **[cli](./cli//README.md)** - a quick command line utility that leverages `client` to query
   PubMed and output its contents to the terminal.
 
 ## Working With PubMed's API
@@ -66,3 +66,9 @@ Production Software is not ready for relase if there is no unit tests.
 
 While this MCP is great for a demo, there is a few areas it can be improved
 upon or be productionalized.
+
+## Development Process
+
+I have included an [Obsidian vault](./obsidian/README.md) that
+utilizes the Kanban plugin - to showcase
+simple planning and ticketing.
