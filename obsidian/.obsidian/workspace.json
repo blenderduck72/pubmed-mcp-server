@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "workboard/work/cards/DE-PUBMED-0002 Types.md",
+                "file": "workboard/work/cards/DE-PUBMED-0003 Client.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "DE-PUBMED-0002 Types"
+              "title": "DE-PUBMED-0003 Client"
             }
           }
         ]
@@ -83,7 +83,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "561b028673e10ab9",
@@ -190,13 +191,13 @@
   "active": "16e5afd705b0a2b5",
   "lastOpenFiles": [
     "workboard/work/work_catalog.md",
+    "workboard/work/cards/DE-PUBMED-0002 Types.md",
     "workboard/work/cards/DE-PUBMED-0001-Initial.md",
     "workboard/planning/planning_catalog.md",
     "workboard/planning/cards/Rust MCP Server Portfolio Project.md",
     "README.md",
     "workboard/work/cards/DE-PUBMED-006 Documentation.md",
     "workboard/work/cards/DE-PUBMED-0003 Client.md",
-    "workboard/work/cards/DE-PUBMED-0002 Types.md",
     "workboard/work/cards/DE-PUBMED-0004 CLI.md",
     "workboard/work/cards/DE-PUBMED-0005 MCP.md",
     "workboard/work/cards",
