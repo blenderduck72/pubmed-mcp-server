@@ -139,7 +139,6 @@ impl Client {
             retmax,
         );
         let url = self.search_url();
-        println!("{}", url);
         let result = self
             .client
             .get(url)
@@ -460,10 +459,6 @@ mod tests {
                     None,
                 )
                 .await?;
-            println!(
-                "{:#?}",
-                e_search_result
-            );
             mock.assert();
             assert_eq!(
                 expected_e_search_result,
